@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA94C9FE170655B400AC0934 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA94C9FD170655B400AC0934 /* Foundation.framework */; };
+		BA94CA03170655B400AC0934 /* MKCommunicationBTStack.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BA94CA02170655B400AC0934 /* MKCommunicationBTStack.h */; };
+		BA94CA05170655B400AC0934 /* MKCommunicationBTStack.m in Sources */ = {isa = PBXBuildFile; fileRef = BA94CA04170655B400AC0934 /* MKCommunicationBTStack.m */; };
+		BA94CA0D170655B500AC0934 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA94CA0C170655B500AC0934 /* SenTestingKit.framework */; };
+		BA94CA0F170655B500AC0934 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA94CA0E170655B500AC0934 /* UIKit.framework */; };
+		BA94CA10170655B500AC0934 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA94C9FD170655B400AC0934 /* Foundation.framework */; };
+		BA94CA13170655B500AC0934 /* libMKCommunicationBTStack.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BA94C9FA170655B400AC0934 /* libMKCommunicationBTStack.a */; };
+		BA94CA19170655B500AC0934 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BA94CA17170655B500AC0934 /* InfoPlist.strings */; };
+		BA94CA1C170655B500AC0934 /* MKCommunicationBTStackTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA94CA1B170655B500AC0934 /* MKCommunicationBTStackTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA94CA11170655B500AC0934 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA94C9F2170655B400AC0934 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA94C9F9170655B400AC0934;
+			remoteInfo = MKCommunicationBTStack;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BA94C9F8170655B400AC0934 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				BA94CA03170655B400AC0934 /* MKCommunicationBTStack.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BA94C9FA170655B400AC0934 /* libMKCommunicationBTStack.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMKCommunicationBTStack.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA94C9FD170655B400AC0934 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BA94CA01170655B400AC0934 /* MKCommunicationBTStack-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MKCommunicationBTStack-Prefix.pch"; sourceTree = "<group>"; };
+		BA94CA02170655B400AC0934 /* MKCommunicationBTStack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKCommunicationBTStack.h; sourceTree = "<group>"; };
+		BA94CA04170655B400AC0934 /* MKCommunicationBTStack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKCommunicationBTStack.m; sourceTree = "<group>"; };
+		BA94CA0B170655B500AC0934 /* MKCommunicationBTStackTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MKCommunicationBTStackTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA94CA0C170655B500AC0934 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		BA94CA0E170655B500AC0934 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		BA94CA16170655B500AC0934 /* MKCommunicationBTStackTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MKCommunicationBTStackTests-Info.plist"; sourceTree = "<group>"; };
+		BA94CA18170655B500AC0934 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BA94CA1A170655B500AC0934 /* MKCommunicationBTStackTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKCommunicationBTStackTests.h; sourceTree = "<group>"; };
+		BA94CA1B170655B500AC0934 /* MKCommunicationBTStackTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKCommunicationBTStackTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA94C9F7170655B400AC0934 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA94C9FE170655B400AC0934 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA94CA07170655B500AC0934 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA94CA0D170655B500AC0934 /* SenTestingKit.framework in Frameworks */,
+				BA94CA0F170655B500AC0934 /* UIKit.framework in Frameworks */,
+				BA94CA10170655B500AC0934 /* Foundation.framework in Frameworks */,
+				BA94CA13170655B500AC0934 /* libMKCommunicationBTStack.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA94C9F1170655B400AC0934 = {
+			isa = PBXGroup;
+			children = (
+				BA94C9FF170655B400AC0934 /* MKCommunicationBTStack */,
+				BA94CA14170655B500AC0934 /* MKCommunicationBTStackTests */,
+				BA94C9FC170655B400AC0934 /* Frameworks */,
+				BA94C9FB170655B400AC0934 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA94C9FB170655B400AC0934 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA94C9FA170655B400AC0934 /* libMKCommunicationBTStack.a */,
+				BA94CA0B170655B500AC0934 /* MKCommunicationBTStackTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA94C9FC170655B400AC0934 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA94C9FD170655B400AC0934 /* Foundation.framework */,
+				BA94CA0C170655B500AC0934 /* SenTestingKit.framework */,
+				BA94CA0E170655B500AC0934 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BA94C9FF170655B400AC0934 /* MKCommunicationBTStack */ = {
+			isa = PBXGroup;
+			children = (
+				BA94CA02170655B400AC0934 /* MKCommunicationBTStack.h */,
+				BA94CA04170655B400AC0934 /* MKCommunicationBTStack.m */,
+				BA94CA00170655B400AC0934 /* Supporting Files */,
+			);
+			path = MKCommunicationBTStack;
+			sourceTree = "<group>";
+		};
+		BA94CA00170655B400AC0934 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BA94CA01170655B400AC0934 /* MKCommunicationBTStack-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BA94CA14170655B500AC0934 /* MKCommunicationBTStackTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA94CA1A170655B500AC0934 /* MKCommunicationBTStackTests.h */,
+				BA94CA1B170655B500AC0934 /* MKCommunicationBTStackTests.m */,
+				BA94CA15170655B500AC0934 /* Supporting Files */,
+			);
+			path = MKCommunicationBTStackTests;
+			sourceTree = "<group>";
+		};
+		BA94CA15170655B500AC0934 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BA94CA16170655B500AC0934 /* MKCommunicationBTStackTests-Info.plist */,
+				BA94CA17170655B500AC0934 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA94C9F9170655B400AC0934 /* MKCommunicationBTStack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA94CA1F170655B500AC0934 /* Build configuration list for PBXNativeTarget "MKCommunicationBTStack" */;
+			buildPhases = (
+				BA94C9F6170655B400AC0934 /* Sources */,
+				BA94C9F7170655B400AC0934 /* Frameworks */,
+				BA94C9F8170655B400AC0934 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MKCommunicationBTStack;
+			productName = MKCommunicationBTStack;
+			productReference = BA94C9FA170655B400AC0934 /* libMKCommunicationBTStack.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		BA94CA0A170655B500AC0934 /* MKCommunicationBTStackTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA94CA22170655B500AC0934 /* Build configuration list for PBXNativeTarget "MKCommunicationBTStackTests" */;
+			buildPhases = (
+				BA94CA06170655B500AC0934 /* Sources */,
+				BA94CA07170655B500AC0934 /* Frameworks */,
+				BA94CA08170655B500AC0934 /* Resources */,
+				BA94CA09170655B500AC0934 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA94CA12170655B500AC0934 /* PBXTargetDependency */,
+			);
+			name = MKCommunicationBTStackTests;
+			productName = MKCommunicationBTStackTests;
+			productReference = BA94CA0B170655B500AC0934 /* MKCommunicationBTStackTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA94C9F2170655B400AC0934 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Frank Blumenberg";
+			};
+			buildConfigurationList = BA94C9F5170655B400AC0934 /* Build configuration list for PBXProject "MKCommunicationBTStack" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BA94C9F1170655B400AC0934;
+			productRefGroup = BA94C9FB170655B400AC0934 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA94C9F9170655B400AC0934 /* MKCommunicationBTStack */,
+				BA94CA0A170655B500AC0934 /* MKCommunicationBTStackTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA94CA08170655B500AC0934 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA94CA19170655B500AC0934 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BA94CA09170655B500AC0934 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA94C9F6170655B400AC0934 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA94CA05170655B400AC0934 /* MKCommunicationBTStack.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA94CA06170655B500AC0934 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA94CA1C170655B500AC0934 /* MKCommunicationBTStackTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA94CA12170655B500AC0934 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA94C9F9170655B400AC0934 /* MKCommunicationBTStack */;
+			targetProxy = BA94CA11170655B500AC0934 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BA94CA17170655B500AC0934 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA94CA18170655B500AC0934 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA94CA1D170655B500AC0934 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BA94CA1E170655B500AC0934 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA94CA20170655B500AC0934 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/MKCommunicationBTStack.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MKCommunicationBTStack/MKCommunicationBTStack-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		BA94CA21170655B500AC0934 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/MKCommunicationBTStack.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MKCommunicationBTStack/MKCommunicationBTStack-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		BA94CA23170655B500AC0934 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MKCommunicationBTStack/MKCommunicationBTStack-Prefix.pch";
+				INFOPLIST_FILE = "MKCommunicationBTStackTests/MKCommunicationBTStackTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		BA94CA24170655B500AC0934 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MKCommunicationBTStack/MKCommunicationBTStack-Prefix.pch";
+				INFOPLIST_FILE = "MKCommunicationBTStackTests/MKCommunicationBTStackTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA94C9F5170655B400AC0934 /* Build configuration list for PBXProject "MKCommunicationBTStack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA94CA1D170655B500AC0934 /* Debug */,
+				BA94CA1E170655B500AC0934 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA94CA1F170655B500AC0934 /* Build configuration list for PBXNativeTarget "MKCommunicationBTStack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA94CA20170655B500AC0934 /* Debug */,
+				BA94CA21170655B500AC0934 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BA94CA22170655B500AC0934 /* Build configuration list for PBXNativeTarget "MKCommunicationBTStackTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA94CA23170655B500AC0934 /* Debug */,
+				BA94CA24170655B500AC0934 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA94C9F2170655B400AC0934 /* Project object */;
+}
