@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		BA94C9FE170655B400AC0934 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA94C9FD170655B400AC0934 /* Foundation.framework */; };
-		BA94CA03170655B400AC0934 /* MKCommunicationBTStack.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BA94CA02170655B400AC0934 /* MKCommunicationBTStack.h */; };
-		BA94CA05170655B400AC0934 /* MKCommunicationBTStack.m in Sources */ = {isa = PBXBuildFile; fileRef = BA94CA04170655B400AC0934 /* MKCommunicationBTStack.m */; };
 		BA94CA0D170655B500AC0934 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA94CA0C170655B500AC0934 /* SenTestingKit.framework */; };
 		BA94CA0F170655B500AC0934 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA94CA0E170655B500AC0934 /* UIKit.framework */; };
 		BA94CA10170655B500AC0934 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA94C9FD170655B400AC0934 /* Foundation.framework */; };
@@ -35,7 +33,6 @@
 			dstPath = "include/${PRODUCT_NAME}";
 			dstSubfolderSpec = 16;
 			files = (
-				BA94CA03170655B400AC0934 /* MKCommunicationBTStack.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,8 +42,6 @@
 		BA94C9FA170655B400AC0934 /* libMKCommunicationBTStack.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMKCommunicationBTStack.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA94C9FD170655B400AC0934 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BA94CA01170655B400AC0934 /* MKCommunicationBTStack-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MKCommunicationBTStack-Prefix.pch"; sourceTree = "<group>"; };
-		BA94CA02170655B400AC0934 /* MKCommunicationBTStack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKCommunicationBTStack.h; sourceTree = "<group>"; };
-		BA94CA04170655B400AC0934 /* MKCommunicationBTStack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKCommunicationBTStack.m; sourceTree = "<group>"; };
 		BA94CA0B170655B500AC0934 /* MKCommunicationBTStackTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MKCommunicationBTStackTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA94CA0C170655B500AC0934 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		BA94CA0E170655B500AC0934 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -111,8 +106,6 @@
 		BA94C9FF170655B400AC0934 /* MKCommunicationBTStack */ = {
 			isa = PBXGroup;
 			children = (
-				BA94CA02170655B400AC0934 /* MKCommunicationBTStack.h */,
-				BA94CA04170655B400AC0934 /* MKCommunicationBTStack.m */,
 				BA94CA00170655B400AC0934 /* Supporting Files */,
 			);
 			path = MKCommunicationBTStack;
@@ -243,7 +236,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA94CA05170655B400AC0934 /* MKCommunicationBTStack.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
